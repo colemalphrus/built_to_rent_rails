@@ -1,4 +1,10 @@
 <div>
   <h3>this is a good content block</h3>
-  <p>this is a story all about how my life got fliped turned upside down</p>
+  <p>this is a story all about how my life got <%= 1 + 1 %> turned upside down</p>
 </div>
+
+<ul>
+  <% @data.each do |name| %>
+    <li><%= name %></li>
+  <% end %>
+</ul>
